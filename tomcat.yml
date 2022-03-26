@@ -1,5 +1,5 @@
 ---
-- name: Deploying Application in tomcat server ...
+- name: Deploying Application in tomcat server
   hosts: 192.168.56.11
   become: true
   tasks: 
