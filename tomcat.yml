@@ -1,7 +1,7 @@
 ---
 - name: Deploying Application in tomcat server
   hosts: 192.168.56.11
-  become: true
+  #become: true
   tasks: 
     - name: Download and deploy artifact on tomact server ...
       get_url: 
